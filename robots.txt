@@ -1,0 +1,8 @@
+GDguangzhou3.0
+---------------------------
+When I was a child,
+I didn't even know robots.txt.
+
+User-agent:All
+Disallow: /admin/login.php
+Disallow: /admin/register.php

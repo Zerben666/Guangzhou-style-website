@@ -1,0 +1,22 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Js逐字显示网页文字</title>
+<style>
+#txt{font-size:18px;}
+</style>
+<script language="javascript">
+ text = "公元前221年，秦始皇统一中国，秦始皇33年(公元前214年)平南越后，在广州地区设南海郡。广州为郡治所在地。后赵佗续任南海郡郡尉，于秦末汉初时， 自立为南越国武帝，汉武帝于公元前111年平定了南越国，把原赵佗割据地区划分为九郡，广州仍称南海郡，归属交趾称交州，交州治所在地移至广西梧州，东汉末年，广州属于三国时的吴国，公元216年，吴国交州刺史步骘把交州治从梧州迁回广州，公元226年将交州改为广州，广州之名由此开始。晋代广州仍称南海郡，为州治所在。南北朝与隋代，广州仍为州治。唐代广州称广州都督府，是岭南道的道治与都督府治所在地，唐末期刘岩在广州称帝，号称南汉国。 公元970年，宋平南汉后，废都督府仍称为广州(以后一直沿用广州名称)，广州为广南东路路治地(简称广东。广东省之称自此开始)。";
+ i = 0;
+ function type(){ 
+  str  = text.substr(0,i);
+  txt.innerHTML = str + "_";
+  i++;
+  if (i>text.length)/*i=0(无限循环)*/;
+  setTimeout("type()",150);
+ }
+</script>
+</head>
+<body onLoad="type()">
+<div id="txt"></div></body>
+</html>

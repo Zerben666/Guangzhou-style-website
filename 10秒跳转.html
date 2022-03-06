@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>10秒后跳转</title>
+</head>
+
+<body>
+<input type="text" readonly="true" value="10" id="time">
+</body>
+<script language="javascript">
+var t = 10;
+var time = document.getElementById("time");
+function fun(){
+t--;
+time.value = t;
+if(t<=0){
+location.href = "http://www.baidu.com";
+clearInterval(inter);
+}
+}
+var inter = setInterval("fun()",1000);
+</script>
+</html>
