@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs" value="name:id;datatype:int,name:username;datatype:string,name:nickname;datatype:string,name:gender;datatype:string,name:password;datatype:string,name:education;datatype:string,name:city;datatype:string,name:hobby;datatype:string,name:question;datatype:string,name:answer;datatype:string,name:phone;datatype:string,name:email;datatype:string,name:self-introduction;datatype:blob,name:user_group;datatype:string,name:regtime;datatype:datetime,name:style;datatype:string" />
+	<infoitem key="UD_rs2" value="name:id;datatype:int,name:username;datatype:string,name:aspect;datatype:string,name:title;datatype:string,name:content;datatype:string,name:time;datatype:datetime" />
+	<infoitem key="UD_edit" value="name:id;datatype:int,name:original;datatype:string,name:title;datatype:string,name:aspect;datatype:string,name:content;datatype:blob,name:time;datatype:datetime" />
+</info>

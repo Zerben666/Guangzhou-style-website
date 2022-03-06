@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs1" value="name:id;datatype:int,name:username;datatype:string,name:aspect;datatype:string,name:title;datatype:string,name:content;datatype:blob,name:time;datatype:datetime,name:read;datatype:string,name:release;datatype:string" />
+	<infoitem key="UD_rs2" value="name:id;datatype:int,name:username;datatype:string,name:time;datatype:datetime,name:ly;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:username;datatype:string,name:aspect;datatype:string,name:title;datatype:string,name:content;datatype:blob,name:time;datatype:datetime,name:read;datatype:string,name:release;datatype:string" />
+	<infoitem key="UD_Recordset2" value="name:id;datatype:int,name:username;datatype:string,name:time;datatype:datetime,name:ly;datatype:string" />
+	<infoitem key="UD_suggest" value="name:id;datatype:int,name:username;datatype:string,name:aspect;datatype:string,name:title;datatype:string,name:content;datatype:blob,name:time;datatype:datetime,name:read;datatype:string,name:release;datatype:string" />
+</info>
