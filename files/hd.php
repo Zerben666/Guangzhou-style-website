@@ -135,6 +135,10 @@ h1 {
 .fm {
 	float: right;
 }
+
+li{
+  margin-left: 4em;
+}
 </style>
 <!-- InstanceEndEditable -->
 <link rel="shortcut icon"  href="../images/logo.JPG"/>
@@ -270,8 +274,9 @@ if( $row_rs['username']=="" ){
     <li><a href="#" class="MenuBarItemSubmenu">广府活动</a>
       <ul>
         <?php if ($totalRows_edit > 0) { // Show if recordset not empty ?>
+          <!--因为历史遗留原因，这里不便做循环，就这样吧-->
             <li><a href="hd.php?username=<?php echo $row_rs['username']; ?>&id=<?php echo $row_edit['id']; ?>"><?php echo $row_edit['title']; ?></a></li>
-          <?php } // Show if recordset not empty ?>
+        <?php } // Show if recordset not empty ?>
 <li><a href="contribution.php<?php echo $url; ?>">投稿</a></li>
       </ul>
     </li>
@@ -296,7 +301,7 @@ if( $row_rs['username']=="" ){
     </li>
   </ul>
   <div class="content"><!-- InstanceBeginEditable name="EditRegion1" --><h1><?php echo $row_edit['title']; ?></h1>
-  	<h4 class="yc">原创：<?php echo $row_edit['original']; ?> <?php echo $row_edit['time']; ?></h4>
+  	<h4 class="yc">原创：<?php echo $row_edit['original'].$row_edit['nickname']; ?> <?php echo $row_edit['time']; ?></h4>
     <p><?php echo $row_edit['content']; ?></p>
     <h4 class="fm">文章方面：<font color="#FF9966"><?php echo $row_edit['aspect']; ?></font></h4>
     <p>&nbsp;</p>
